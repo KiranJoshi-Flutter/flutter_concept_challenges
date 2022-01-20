@@ -6,6 +6,7 @@ import 'package:flutter_concept_challenges/4_container.dart';
 import 'package:flutter_concept_challenges/5_flatbutton.dart';
 import 'package:flutter_concept_challenges/6_container.dart';
 import 'package:flutter_concept_challenges/7_container.dart';
+import 'package:flutter_concept_challenges/8_counter_app.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SevenContainer(),
+      home: EightCounterApp(),
     );
   }
 }
